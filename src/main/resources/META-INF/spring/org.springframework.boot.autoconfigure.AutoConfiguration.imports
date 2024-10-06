@@ -1,0 +1,2 @@
+io.doe.config.JacksonConfig
+io.doe.config.LoggingConfig.P6SqlLogMessageFormatConfig

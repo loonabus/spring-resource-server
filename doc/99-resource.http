@@ -1,0 +1,9 @@
+GET http://127.0.0.1:8888/rest/v1/resource/public
+Content-Type: application/json
+Authorization: Bearer eyJraWQiOiI5MjU0MzNjYi1iYTlhLTRjMWMtOGVkZC05ZTNmZTQyZmRmYjUiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6InJlYWQtY2xpZW50IiwibmJmIjoxNzI4MTQxMzQ5LCJzY29wZSI6WyJyZXNvdXJjZTpyZWFkIiwiQURNSU4iXSwiaXNzIjoiaHR0cDovLzEyNy4wLjAuMTo5OTk5IiwiZXhwIjoxNzI4MTQ0OTQ5LCJpYXQiOjE3MjgxNDEzNDksImp0aSI6ImFiODI2NzgyLWFlNzctNGEwZi1iZDExLWQ2ZDc2NGE2ODlkZCJ9.CjEpM-uK7eVmIbqfskEMMYEt0BUY5BpqbWh61vYRnxbb-YlKBuf97Imp_F889rZoU2N2gOZmFovGsnielLytfQTv8WqY9G_arIFBnZ89Keuk0wzWrLFm0vJIlJavZQTUQSt9ytDg7mBb3TSzEm58sXnJKOaWks6tYAmJZIg2FDvPhY3wmJcwCXWlzCpUZf8zQmndVkZIMt5OejnUHl3mwILh1z0764mxTtfsOSFhqw5eN_7Oq5XA_nE-1myusQrEzNols2i3NTf3lKV6iNOaaz9o5An6jc7Uk2osWpFsCxs7os9IBK26c_jNENZtp2tcSXOHqgrsO9oiI-61Wdmnrg
+
+##########################################################################################
+
+GET http://127.0.0.1:8888/rest/v1/resource/secret
+Content-Type: application/json
+Authorization: Bearer eyJraWQiOiI5MjU0MzNjYi1iYTlhLTRjMWMtOGVkZC05ZTNmZTQyZmRmYjUiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1ZCI6InJlYWQtY2xpZW50IiwibmJmIjoxNzI4MTQxMzQ5LCJzY29wZSI6WyJyZXNvdXJjZTpyZWFkIiwiQURNSU4iXSwiaXNzIjoiaHR0cDovLzEyNy4wLjAuMTo5OTk5IiwiZXhwIjoxNzI4MTQ0OTQ5LCJpYXQiOjE3MjgxNDEzNDksImp0aSI6ImFiODI2NzgyLWFlNzctNGEwZi1iZDExLWQ2ZDc2NGE2ODlkZCJ9.CjEpM-uK7eVmIbqfskEMMYEt0BUY5BpqbWh61vYRnxbb-YlKBuf97Imp_F889rZoU2N2gOZmFovGsnielLytfQTv8WqY9G_arIFBnZ89Keuk0wzWrLFm0vJIlJavZQTUQSt9ytDg7mBb3TSzEm58sXnJKOaWks6tYAmJZIg2FDvPhY3wmJcwCXWlzCpUZf8zQmndVkZIMt5OejnUHl3mwILh1z0764mxTtfsOSFhqw5eN_7Oq5XA_nE-1myusQrEzNols2i3NTf3lKV6iNOaaz9o5An6jc7Uk2osWpFsCxs7os9IBK26c_jNENZtp2tcSXOHqgrsO9oiI-61Wdmnrg

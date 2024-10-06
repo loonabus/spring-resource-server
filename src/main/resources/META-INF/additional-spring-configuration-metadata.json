@@ -1,0 +1,29 @@
+{
+	"properties": [
+		{
+			"name": "base.auth.rsa.path",
+			"type": "java.lang.String",
+			"description": "Description for base.auth.rsa.path."
+		},
+		{
+			"name": "base.jackson.zone-id",
+			"type": "java.time.ZoneId",
+			"description": "Description for base.jackson.zone-id."
+		},
+		{
+			"name": "base.jackson.des-format",
+			"type": "java.lang.String",
+			"description": "Description for base.jackson.des-format."
+		},
+		{
+			"name": "base.jackson.ser-date-format",
+			"type": "java.lang.String",
+			"description": "Description for base.jackson.ser-date-format."
+		},
+		{
+			"name": "base.jackson.ser-date-time-format",
+			"type": "java.lang.String",
+			"description": "Description for base.jackson.ser-date-time-format."
+		}
+	]
+}
