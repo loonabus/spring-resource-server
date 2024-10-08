@@ -118,7 +118,8 @@ public class JacksonConfig {
 
 		@Override
 		public String deserialize(final JsonParser p, final DeserializationContext c) throws IOException {
-			final String source = super.deserialize(p, c); return StringUtils.hasLength(source) ? source.strip() : source;
+			final String source = super.deserialize(p, c);
+			return StringUtils.hasLength(source) ? source.strip() : source;
 		}
 	}
 
@@ -126,11 +127,11 @@ public class JacksonConfig {
 	static class StringSanitizingDeserializer extends StringDeserializer implements ContextualDeserializer {
 
 		@Serial private static final long serialVersionUID = 1L;
-		private static final StringDeserializer DESERIALIZER = new StringStripDeserializer();
+		private static final StringDeserializer STRIP_DESERIALIZER = new StringStripDeserializer();
 
 		@Override
-		public JsonDeserializer<String> createContextual(final DeserializationContext c, final BeanProperty bp) {
-			return Objects.nonNull(bp.getAnnotation(XssSanitize.class)) ? this : DESERIALIZER;
+		public JsonDeserializer<String> createContextual(final DeserializationContext c, @Nullable final BeanProperty bp) {
+			return Objects.nonNull(bp) && Objects.nonNull(bp.getAnnotation(XssSanitize.class)) ? this : STRIP_DESERIALIZER;
 		}
 
 		@Nullable @Override
